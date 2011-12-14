@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "mock_redis/version"
 
 Gem::Specification.new do |s|
-  s.name        = "mock_redis"
+  s.name        = "ryansch-mock_redis"
   s.version     = MockRedis::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Samuel Merritt"]
-  s.email       = ["spam@andcheese.org"]
-  s.homepage    = "https://github.com/causes/mock_redis"
+  s.authors     = ["Samuel Merritt", "Ryan Schlesinger"]
+  s.email       = ["ryan@instanceinc.com"]
+  s.homepage    = "https://github.com/ryansch/mock_redis"
   s.summary     = %q{Redis mock that just lives in memory; useful for testing.}
 
   s.description = %q{Instantiate one with `redis = MockRedis.new` and treat it like you would a normal Redis object. It supports all the usual Redis operations.}
